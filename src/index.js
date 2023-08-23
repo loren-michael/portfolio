@@ -6,7 +6,6 @@ import { applyMiddleware, createStore } from 'redux';
 import { composeWithDevTools } from '@redux-devtools/extension';
 import thunk from 'redux-thunk';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 import rootReducer from './reducers';
 
 
